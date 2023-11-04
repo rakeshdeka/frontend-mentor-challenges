@@ -9,6 +9,13 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Hanken_Grotesk: ['Hanken Grotesk', 'sans-serif'],
+
+      },
+      screens: {
+        'mobile': '375px',
+      },
 
     },
   },
