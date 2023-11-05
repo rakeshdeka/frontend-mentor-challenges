@@ -8,7 +8,7 @@ const Result = () => {
                 <div className='h-[15%] w-[100%] flex justify-center items-end '><h1 className='text-center font-bold text-2xl text-slate-200 mb-2 font-Hanken_Grotesk '>Your result</h1>
                 </div>
                 <div className='h-[55%] w-[100%] flex justify-center items-center'>
-                    <div className='flex flex-col justify-center items-center rounded-full w-[220px] h-[220px] bg-gradient-to-b from-[#4e21ca] to-[#2421ca01] shadow-sm gap-1'>
+                    <div className='flex flex-col justify-center items-center rounded-full w-[220px] h-[220px] bg-gradient-to-b from-[#4e21ca] to-[#2421ca01] gap-1'>
                         <p className='text-7xl font-semibold text-white font-Hanken_Grotesk'>76</p>
                         <p className='text-[#737373] font-semibold text-sm font-Hanken_Grotesk'>of 100</p>
                     </div>
