@@ -29,25 +29,25 @@ const Summary = () => {
     return (
         <>
 
-            <div className='flex h-[100%] w-[90%] flex-col  justify-center '>
-                <div className='h-[10%] flex  '>
-                    <div className=' font-semibold  ml-2 text-2xl font-Hanken_Grotesk text-slate-700'>Summary</div>
+            <div className='flex h-[100%] w-[100%] flex-col sm:justify-center  '>
+                <div className='h-[10%] flex mt-5 '>
+                    <div className=' font-semibold  ml-2 text-lg font-Hanken_Grotesk text-slate-700 sm:text-xl'>Summary</div>
                 </div>
-                <div className='h-[75%] flex flex-col justify-evenly items-center'>
+                <div className='  h-[80%] flex flex-col justify-evenly items-center gap-3'>
                     {data.map((data, index) => (
 
 
-                        <div className={`h-[15%] w-[90%]  flex justify-between rounded-lg ${colors[index]?.bColor} items-center`} key={index}>
+                        <div className={`h-[25%] w-[90%] p-2  flex justify-between rounded-lg ${colors[index]?.bColor} items-center sm:h-[15%] sm:pl-2 sm:pr-2 sm: `} key={index} >
                             <div className='flex gap-3 '>
                                 <div className='ml-1 flex items-center'>
                                     <img alt='img' src={data.icon} />
                                 </div>
 
-                                <div className={`${colors[index]?.tColor} font-semibold font-Hanken_Grotesk`}>{data?.category}</div>
+                                <div className={`${colors[index]?.tColor} font-semibold text-[.8rem] font-Hanken_Grotesk`}>{data?.category}</div>
                             </div>
                             <div className='flex gap-1'>
-                                <div className='font-semibold font-Hanken_Grotesk'>{data?.score}</div>
-                                <div className='mr-1 font-semibold text-slate-400 font-Hanken_Grotesk'>  / 100</div>
+                                <div className='font-semibold font-Hanken_Grotesk text-[.8rem]'>{data?.score}</div>
+                                <div className='mr-1 font-semibold text-slate-400 font-Hanken_Grotesk text-[.8rem]'>  / 100</div>
                             </div>
 
                         </div>
@@ -55,7 +55,7 @@ const Summary = () => {
 
                     ))}
 
-                    <div className='h-[12%] w-[90%] bg-[#303B5A] rounded-3xl flex  justify-center items-center hover:bg-gradient-to-b from-[#7857ff] to-[#2e2be9] cursor-pointer shadow-xl'>
+                    <div className='h-[20%] w-[90%] bg-[#303B5A] rounded-3xl flex  justify-center items-center hover:bg-gradient-to-b from-[#7857ff] to-[#2e2be9] cursor-pointer shadow-xl sm:h-[13%]'>
                         <h1 className='text-white font-semibold font-Hanken_Grotesk'> Continue</h1>
 
                     </div>

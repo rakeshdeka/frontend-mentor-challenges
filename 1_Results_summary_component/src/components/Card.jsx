@@ -7,9 +7,10 @@ export const Card = () => {
     return (
         <>
             <div className="h-[100vh] flex justify-center items-center">
-                <div className='flex  justify-center items-center  w-[700px] h-[500px] rounded-3xl shadow-2xl'>
+
+                <div className='flex flex-col justify-center items-center  w-[100%] h-[100%] rounded-3xl shadow-2xl sm:flex-row sm:w-[650px] sm:h-[500px]'>
                     <Result />
-                    <div className='h-[100%] w-[50%] flex flex-col justify-evenly items-center'>
+                    <div className='h-[100%] w-[90%] flex flex-col justify-evenly items-center'>
                         <Summary />
                     </div>
                 </div>
