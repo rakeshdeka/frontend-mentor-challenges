@@ -29,11 +29,12 @@ const Summary = () => {
     return (
         <>
 
-            <div className='flex h-[100%] w-[100%] flex-col sm:justify-center  '>
-                <div className='h-[10%] flex mt-5 '>
-                    <div className=' font-semibold  ml-2 text-lg font-Hanken_Grotesk text-slate-700 sm:text-xl'>Summary</div>
+            <div className='flex h-[100%] w-[100%] flex-col items-center justify-center  '>
+               
+                <div className='h-[10%] flex mt-5 self-start ml-4'>
+                    <div className=' font-semibold  ml-4 text-lg font-Hanken_Grotesk text-slate-700 sm:text-xl'>Summary</div>
                 </div>
-                <div className='  h-[80%] flex flex-col justify-evenly items-center gap-3'>
+                <div className='  h-[80%] w-[90%] flex flex-col justify-evenly items-center gap-3 '>
                     {data.map((data, index) => (
 
 
@@ -60,6 +61,7 @@ const Summary = () => {
 
                     </div>
                 </div>
+               
             </div>
         </>
     )
