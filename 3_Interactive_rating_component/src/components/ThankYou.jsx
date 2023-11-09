@@ -8,7 +8,7 @@ const ThankYou = () => {
                 <img src={ThankYouImg} alt="" />
 
             </div>
-            <div className='h-[15%]   flex justify-center items-center'>
+            <div className='h-[15%] flex justify-center items-center'>
                 <div className='h-[80%]  w-[60%] rounded-3xl bg-[#343538] flex justify-center items-center'>
                     <p className='text-[#fb74138e] font-Overpass'> You selected 4 out of 5</p>
                 </div>
