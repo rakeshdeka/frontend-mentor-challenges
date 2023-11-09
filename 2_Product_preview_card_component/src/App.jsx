@@ -4,7 +4,7 @@ import imageMobile from "../src/assets/image-product-mobile.jpg"
 function App() {
   return (
     <>
-      <div className="h-[100vh] w-[100wh] flex justify-center items-center sm:bg-[#f2ebe3]  ">
+      <div className="h-[100vh] w-[100wh] flex justify-center items-center sm:bg-[#f2ebe3] ">
         <div className="h-[600px] w-[300px] flex flex-col  shadow-lg rounded-b-2xl sm:w-[40%] sm:h-[60%] ">
           <div className="h-[100%] w-[100%] flex flex-col sm:flex-row ">
             {/* <div className="h-[100%] w-[200px] sm:visible  ">
